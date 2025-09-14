@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.section_one{
+  background-color: rgb(63, 166, 108);
+  position: relative;
+  padding: 250px 0px;
+  .cloud{
+    background: url(/main/bottom-bg.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+  }
+  h1{
+    font-weight: 700;
+  }
+  p{
+    color: white;
+    opacity: 0.8;
+  }
+}
+.section_two{
+  h1{
+    font-weight: 700;
+    font-size: 45px;
+  }
+  p{
+    font-size: 23px;
+    font-size: 50px;
+    color: gray;
+  }
+  .title{
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .badge{
+    background: oklch(96.2% .044 156.743);
+    padding: 10px 15px;
+    color: oklch(44.8% .119 151.328);
+  }
+}
+.section_three{
+    .card_sm{
+    transition: 0.3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px;
+    border-radius: 15px;
+    position: relative;
+    top: 0;
+    .icon {
+        display: inline-grid;
+        place-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        background: linear-gradient(to right,oklch(72.3% .219 149.579), oklch(62.7% .194 149.214));
+        color: white;
+        font-size: 25px;
+        line-height: 0;
+        flex-shrink: 0;
+        margin-right: 10px;
+        transition: 0.3s;
+      }
+    h5{
+      font-weight: 700;
+      font-size: 24px;
+      transition: 0.3s; 
+    }
+    p{
+      font-size: 18px;
+      color: rgb(94, 93, 93);
+    }
+    h6{
+        padding-top: 42px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgb(83, 82, 82); 
+      }
+    ul{
+      margin-bottom: 0;
+    }
+    li{
+      span{
+        color: oklch(37.3% .034 259.733);
+      }   
+    } 
+    li::marker{color:rgb(65, 198, 65);
+      font-size: 20px;
+    }
+  }
+  .card_sm:hover{
+    top: -10px;
+  }
+  .card_sm:hover h5{
+    color: rgb(4, 138, 4);
+  }
+  .card_sm:hover .icon{
+    scale: 110%;
+  }
+}
+.section_four{
+  background: linear-gradient(
+  to bottom right,
+  oklch(59.6% .145 163.225) 50%,
+  oklch(51.1% .096 186.391) 100%
+  );
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  h1{
+    color: white;
+    font-weight: 700;
+  }
+  p{
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+  }
+  .cards_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    display: flex;
+    margin: 0 !important;
+  }
+
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 50px 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .card:hover {
+    scale: 103%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  .card h5 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .card .circle {
+    margin: 30px auto 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .card:hover .circle {
+    background: rgba(255, 255, 255, 0.25);
+  }
+}
+.section_five{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1{
+    padding-bottom: 50px;
+  }
+  p{
+    font-size: 16px;
+    color: black;
+    .icon{
+      color: green;
+      font-size: 20px;
+    }
+  }
+}

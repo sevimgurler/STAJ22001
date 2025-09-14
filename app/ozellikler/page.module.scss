@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.section_one{
+  background-color: rgb(63, 166, 108);
+  position: relative;
+  padding: 250px 0px;
+  .cloud{
+    background: url(/main/bottom-bg.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+  }
+  h1{
+    font-weight: 700;
+  }
+  p{
+    color: white;
+    opacity: 0.8;
+  }
+}
+.section_two{
+  h1{
+    font-weight: 700;
+    font-size: 45px;
+  }
+  p{
+    font-size: 23px;
+    font-size: 50px;
+    color: gray;
+  }
+  .title{
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .badge{
+    background: oklch(96.2% .044 156.743);
+    padding: 10px 15px;
+    color: oklch(44.8% .119 151.328);
+  }
+}
+.section_three{
+  padding-top: 50px;
+  padding-bottom: 50px;
+    .card_sm{
+    transition: 0.3s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px;
+    border-radius: 15px;
+    position: relative;
+    top: 0;
+    .icon {
+        display: inline-grid;
+        place-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        background: linear-gradient(to right,oklch(72.3% .219 149.579), oklch(62.7% .194 149.214));
+        color: white;
+        font-size: 25px;
+        line-height: 0;
+        flex-shrink: 0;
+        margin-right: 10px;
+        transition: 0.3s;
+      }
+    h5{
+      font-weight: 700;
+      font-size: 24px;
+      transition: 0.3s; 
+    }
+    p{
+      font-size: 18px;
+      color: rgb(94, 93, 93);
+    }
+    h6{
+        padding-top: 42px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgb(83, 82, 82); 
+      }
+    ul{
+      margin-bottom: 0;
+    }
+    li{
+      span{
+        color: oklch(37.3% .034 259.733);
+      }   
+    } 
+    li::marker{color:rgb(65, 198, 65);
+      font-size: 20px;
+    }
+  }
+  .card_sm:hover{
+    top: -10px;
+  }
+  .card_sm:hover h5{
+    color: rgb(4, 138, 4);
+  }
+  .card_sm:hover .icon{
+    scale: 110%;
+  }
+}
+.section_four{
+  .num{
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.3s;
+  }
+  .title{
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .card{
+    padding: 30px 20px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px !important;
+    position: relative;
+    transition: 0.3s;
+    top: 0;
+    border: 0 !important;
+  }
+  .card:hover .num{
+    color: oklch(62.7% .194 149.214);
+  }
+  .card:hover .iconarea{
+    scale: 105%;
+  }
+  .iconarea{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background: linear-gradient(to right,oklch(72.3% .219 149.579), oklch(62.7% .194 149.214));
+    color: white;
+    font-size: 45px;
+    display: inline-block;
+  }
+}
+.section_five{
+  background: linear-gradient(to right,oklch(69.6% .17 162.48),oklch(59.6% .145 163.225));
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  h1{
+    color: white;
+    font-weight: 700;
+  }
+  p{
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+  }
+  .demo_text{
+    font-size: 25px;
+  }
+}
